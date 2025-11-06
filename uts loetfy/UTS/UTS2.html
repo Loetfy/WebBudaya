@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LelanaBudaya | Tentang Kami</title>
+    <link rel="stylesheet" href="../UTS/UTS2.css">
+    <link rel="icon" href="../images/icon jawa.jpeg" type="image/jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="kepala">
+        <div class="atas1">
+            <h1>Lelana Budaya</h1>
+            <p>Gerbang Pengetahuan Budaya Nusantara</p>
+        </div>
+        <nav>
+            <a class="" href="../UTS/UTS.html#home">Home</a>
+            <a class="" href="../UTS/UTS.html#bud">Budaya Daerah</a>
+            <a class="" href="../UTS/UTS.html#kul">Kuliner</a>
+            <a class="" href="../UTS/UTS.html#kes">Kesenian</a>
+            <a class="" href="../UTS/UTS.html#aca">Acara Budaya</a>
+            <center>
+            <a class="" href="../UTS/UTS.html#perca">Kepercayaan</a>
+            <a class="" href="../UTS/UTS.html#gal">Galeri</a>
+            <a class="" href="../UTS/UTS2.html#tang">Tentang Kami</a>
+            </center>
+        </nav>
+    </header>
+    <header class="kepala">
+        <div class="bus">
+            <p id="home">WIB (Waktu Indonesia Barat) :<span id="Jakarta"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("Jakarta").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Jakarta"})} setInterval(updatetime,1000)
+        </script>
+        <div class="bus">
+            <p><b>WITA (Waktu Indonesia Tengah) :</b><span id="WITA"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("WITA").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Makassar"})} setInterval(updatetime,1000)
+        </script>
+        <div class="bus">
+            <p><b>WIT (Waktu Indonesia Timur) :</b><span id="WIT"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("WIT").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Jayapura"})} setInterval(updatetime,1000)
+        </script>
+    </header>
+    <div class="las">
+    <div class="foto"></div>
+    <div class="lap"></div>
+    <div class="cont">
+      <h1 id="tang">Tentang Kami</h1>
+      <p>Lelana Budaya adalah sebuah website yang dibuat sebagai wadah untuk memperkenalkan dan melestarikan kekayaan budaya Indonesia. Kami percaya bahwa setiap tarian, rumah adat, makanan tradisional, hingga upacara adat memiliki makna dan filosofi yang mendalam, menjadi cermin dari kebijaksanaan dan jati diri bangsa. Melalui website ini, kami berupaya menghadirkan informasi yang edukatif, menarik, dan mudah diakses tentang keberagaman budaya di seluruh penjuru Nusantara. Dari Sabang hingga Merauke, kami mengajak generasi muda untuk lebih mengenal, menghargai, dan menjaga warisan budaya bangsa agar tidak hilang ditelan waktu.</p>
+    </div>
+    </div>
+    <footer>
+        <div class="kaki1">
+            <div class="kaki-isi">
+                <h3>Lelana Budaya</h3>
+                <p>Gerbang Pengetahuan Budaya Nusantara</p>
+            </div>
+            <div class="kaki-cont">
+                <h4>Kontak</h4>
+                <p>Email :<a href="mailto:lelanaboedaya@gmail.com">lelanaboedaya@gmail.com</a></p>
+                <p>Instagram:<a href="">@lelanabudaya</a></p>
+                <p>YouTube:<a href="">LelanaBudaya</a></p>
+            </div>
+        </div>
+        <div class="kaki-bwh">
+            <p>&copy; 2025 Lelana Budaya. Loetfy Adyaksa Sabara.</p>
+        </div>
+    </footer>
+</body>
+</html>

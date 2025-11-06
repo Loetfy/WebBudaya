@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LelanaBudaya</title>
+    <link rel="stylesheet" href="../UTS/UTS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="../images/icon jawa.jpeg" type="image/jpeg">
+</head>
+<body>
+    <header class="kepala">
+        <div class="atas1">
+            <h1>Lelana Budaya</h1>
+            <p>Gerbang Pengetahuan Budaya Nusantara</p>
+        </div>
+        <nav>
+            <a class="" href="#home">Home</a>
+            <a class="" href="#bud">Budaya Daerah</a>
+            <a class="" href="#kul">Kuliner</a>
+            <a class="" href="#kes">Kesenian</a>
+            <a class="" href="#aca">Acara Budaya</a>
+            <center>
+            <a class="" href="#perca">Kepercayaan</a>
+            <a class="" href="#gal">Galeri</a>
+            <a class="" href="../UTS/UTS2.html">Tentang Kami</a>
+            </center>
+        </nav>
+    </header>
+    <header class="kepala">
+        <div class="bus">
+            <p id="home">WIB (Waktu Indonesia Barat) :<span id="Jakarta"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("Jakarta").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Jakarta"})} setInterval(updatetime,1000)
+        </script>
+        <div class="bus">
+            <p><b>WITA (Waktu Indonesia Tengah) :</b><span id="WITA"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("WITA").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Makassar"})} setInterval(updatetime,1000)
+        </script>
+        <div class="bus">
+            <p><b>WIT (Waktu Indonesia Timur) :</b><span id="WIT"></span></p>
+        </div>
+        <script>
+            function updatetime(){
+            let now=new Date();
+            document.getElementById("WIT").innerText=now.toLocaleString("id-ID",{timeZone:"Asia/Jayapura"})} setInterval(updatetime,1000)
+        </script>
+    </header>
+    <div class="gam">
+    <div class="background"></div>
+    <div class="lapisan"></div>
+    <div class="isi">
+      <h1>Selamat Datang di Website Lelana Budaya</h1>
+      <p>Mari Menelusuri Jejak Budaya Indonesia</p>
+    </div>
+    </div>
+    <hr>
+    <section class="kel1">
+        <h2 id="bud">Budaya Daerah</h2>
+        <div class="sam">
+            <p>Indonesia dikenal sebagai negeri yang kaya akan keanekaragaman budaya. Dari Sabang hingga Merauke, setiap daerah memiliki keunikan tradisi, bahasa, kesenian, serta nilai-nilai kehidupan yang diwariskan secara turun-temurun.
+            Bagian Budaya Daerah pada website Lelana Budaya hadir untuk memperkenalkan dan mendokumentasikan keberagaman tersebut dalam satu ruang pengetahuan yang mudah diakses. Berikut beberapa contoh budaya dari berbagai wilayah yang ada di indonesia:</p>
+        </div>
+        <div class="sam">
+        <table>
+            <tr>
+                <th>Provinsi</th>
+                <th>Ciri Budaya utama</th>
+                <th>Kesenian Tradisional</th>
+                <th>Rumah Adat</th>
+                <th>Bahasa Daerah</th>
+            </tr>
+            <tr>
+                <td>Jawa Tengah</td>
+                <td>Tradisi gotong royong dan tata krama halus</td>
+                <td>Wayang kulit, gamelan</td>
+                <td>Joglo</td>
+                <td>Jawa</td>
+            </tr>
+            <tr>
+                <td>Bali</td>
+                <td>Tradisi keagamaan dan seni tinggi</td>
+                <td>Tari Kecak, Legong</td>
+                <td>Bale</td>
+                <td>Bali</td>
+            </tr>
+            <tr>
+                <td>Sumatera Barat</td>
+                <td>Adat matrilineal</td>
+                <td>Tari Piring, Randai</td>
+                <td>Rumah Gadang</td>
+                <td>Minangkabau</td>
+            </tr>
+            <tr>
+                <td>Kalimantan Timur</td>
+                <td>Tradisi Dayak</td>
+                <td>Tari Hudoq</td>
+                <td>Lamin</td>
+                <td>Dayak</td>
+            </tr>
+            <tr>
+                <td>Papua</td>
+                <td>Kehidupan Berbasis Alam</td>
+                <td>Tari Perang</td>
+                <td>Hanoi</td>
+                <td>Papua</td>
+            </tr>
+        </table>
+        </div>
+    </section>
+    <section class="kel1">
+        <h2 id="kul">Kuliner Nusantara</h2>
+    <div class="card-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../images/rendang.jpeg" />
+                    <h3>Rendang (Minangkabau)</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Rendang adalah teknik memasak sekaligus hidangan daging khas Minangkabau, Sumatera Barat, yang dihasilkan dari proses memasak yang sangat lama (berjam-jam) menggunakan santan dan aneka rempah hingga kuahnya mengering sepenuhnya. Hasilnya adalah daging yang empuk, kering, kaya rasa pedas dan rempah, serta memiliki daya tahan yang lama, menjadikannya salah satu makanan terenak di dunia.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../images/nasi tumpeng.jpeg"/>
+                    <h3>Nasi Tumpeng (Jawa)</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Nasi Tumpeng adalah hidangan tradisional Indonesia berupa nasi yang dibentuk kerucut menyerupai gunung dan dikelilingi lauk pauk, disajikan sebagai simbol rasa syukur dan keselamatan dalam berbagai upacara adat atau perayaan.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../images/papeda.jpeg"/>
+                    <h3>Papeda (Papua)</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Papeda adalah makanan pokok tradisional masyarakat di Papua dan Maluku, terbuat dari bubur sagu murni. Ciri khas utamanya adalah memiliki tekstur seperti lem atau gel yang kental, lengket, dan berwarna putih bening, dengan rasa yang cenderung tawar. Papeda biasanya disantap dengan cara digulung menggunakan sumpit (atau alat serupa) lalu dicocol dan dimakan bersama Ikan Kuah Kuning yang memiliki rasa kuat, pedas, dan asam untuk mengimbangi rasa netral papeda.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../images/gudeg.jpeg" />
+                    <h3>Gudeg (Yogyakarta)</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Gudeg adalah hidangan khas Yogyakarta dan Jawa Tengah yang ikonik, terbuat dari nangka muda (gori) yang dimasak sangat lama (berjam-jam) menggunakan santan dan gula aren. Ciri khas utama gudeg adalah rasanya yang dominan manis legit dengan warna cokelat kemerahan yang dihasilkan dari daun jati, dan disajikan lengkap bersama nasi, telur pindang, ayam, serta sambal goreng krecek.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="../images/soto betawi.jpeg" />
+                    <h3>Soto Betawi (DKI Jakarta)</h3>
+                </div>
+                <div class="flip-card-back">
+                    <p>Soto Betawi adalah hidangan soto khas DKI Jakarta yang unik karena menggunakan kuah kental berwarna putih yang dihasilkan dari campuran santan dan/atau susu, memberikan cita rasa yang sangat gurih dan creamy. Isian utamanya adalah potongan daging sapi dan aneka jeroan (seperti babat, paru, atau kikil), yang disajikan hangat bersama tomat, kentang, acar, dan ditaburi emping melinjo.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="kel1">
+        <h2 id="kes">Kesenian</h2>
+        <div class="hel">
+            <div class="kar">
+                <img src="../images/batik2.jpg" alt="">
+                <h3>Batik</h3>
+                <p>Batik adalah seni mewarnai kain khas Indonesia menggunakan teknik perintangan malam (lilin) dengan canting, menghasilkan motif yang penuh makna dan diakui UNESCO.</p>
+            </div>
+            <div class="kar">
+                <img src="../images/tenun ikat2.jpg" alt="">
+                <h3>Tenun Ikat</h3>
+                <p>Tenun ikat adalah kain tradisional Indonesia yang dibuat dengan mengikat benang sebelum dicelup pewarna, lalu ditenun.</p>
+            </div>
+            <div class="kar">
+                <img src="../images/ukiran jepara.jpeg" alt="">
+                <h3>Ukiran Jepara</h3>
+                <p>Ukiran Jepara adalah seni pahat kayu khas dari Jawa Tengah, terkenal akan detail halus motif trubusan yang tampak hidup.</p>
+            </div>
+        </div>
+    </section>
+    <section class="kel1">
+        <div class="hel">
+            <div class="kar">
+                <img src="../images/wayang kulit.jpg" alt="">
+                <h3>Wayang Kulit</h3>
+                <p>Wayang kulit adalah seni pertunjukan bayangan boneka kulit kerbau dari Jawa, sarat nilai filosofis dan diakui UNESCO.</p>
+            </div>
+            <div class="kar">
+                <img src="../images/keris.jpeg" alt="">
+                <h3>Keris</h3>
+                <p>Keris adalah senjata tikam tradisional Nusantara, dibuat dari besi pamor, sarat nilai spiritual, dan diakui UNESCO.</p>
+            </div>
+    </section>
+    <section class="kel1">
+        <h2 id="aca">Acara Budaya</h2>
+        <div class="sam">
+            <p>Acara Budaya adalah kegiatan yang diselenggarakan dengan tujuan utama untuk melestarikan, merayakan, dan mempromosikan warisan, tradisi, serta nilai-nilai khas suatu masyarakat atau daerah. Kegiatan ini sering kali merupakan perwujudan (aktivitas) dari ide, gagasan, dan norma yang telah diwariskan turun-temurun, sehingga sarat akan makna filosofis dan spiritual.
+            Acara budaya bisa berbentuk upacara adat, festival, pertunjukan seni, atau ritual yang melibatkan partisipasi komunitas secara luas. Di Indonesia, kekayaan budaya ini terwujud dalam berbagai bentuk, antara lain:</p>
+        </div>
+        <div class="sam">
+        <table>
+            <tr>
+                <th>Nama Acara</th>
+                <th>Lokasi</th>
+                <th>Waktu Pelaksanaan</th>
+                <th>Ciri Khas</th>
+            </tr>
+            <tr>
+                <td>Sekaten</td>
+                <td>Yogyakarta</td>
+                <td>Maulid Nabi</td>
+                <td>Pesta rakyat dan gamelan sekaten</td>
+            </tr>
+            <tr>
+                <td>Jember Fashion Carnival</td>
+                <td>Jember, Jawa Timur</td>
+                <td>Tahunan</td>
+                <td>Kostum spektakuler berbasis budaya</td>
+            </tr>
+            <tr>
+                <td>Festival Danau Toba</td>
+                <td>Sumatera Utara</td>
+                <td>Tahunan</td>
+                <td>Lomba Perahu, Tarian Batak</td>
+            </tr>
+            <tr>
+                <td>Bali Arts Festival</td>
+                <td>Bali</td>
+                <td>Juni-Juli</td>
+                <td>Parade seni dan pementasan tradisional</td>
+            </tr>
+        </table>
+        </div>
+        <br>
+        <div class="yas">
+            <h2>Video Acara Budaya</h2>
+        <div class="pas">
+            <iframe src="https://www.youtube.com/embed/EwBks7dvxFM?autoplay=1" frameborder="0"></iframe>
+            <iframe src="https://www.youtube.com/embed/bpn__8hsUC8" frameborder="0"></iframe>
+        </div>
+        </div>
+    </section>
+<section class="bar">
+<div class="boi">
+    <div class="sidebar">
+        <aside> 
+        <h2>Blog</h2>
+            <br>
+            <div class="blog-items">
+                <div class="items">
+                    <img src="../images/sunda wiwitan.jpeg" alt="">
+                    <h3>SUNDA WIWITAN BADUY: Agama Penjaga Alam Lindung di Desa Kanekes Banten</h3>
+                    <a href="https://media.neliti.com/media/publications/59524-ID-sunda-wiwitan-baduy-agama-penjaga-alam-l.pdf" target="_blank" class="tulisan">Baca Selengkapnya...</a>
+                </div>
+                <div class="items">
+                    <img src="../images/kejawen.jpeg" alt="">
+                    <h3>Kepercayaan Kejawen Islam dalam Perspektif Agama Islam</h3>
+                    <a href="https://share.google/S6ZDd3Kmtd8ibCMvd" target="_blank" class="tulisan">Baca Selengkapnya...</a>
+                </div>
+                <div class="items">
+                    <img src="../images/kaharingan.jpeg" alt="">
+                    <h3>Agama Kaharingan di Kalimantan</h3>
+                    <a href="https://share.google/QHsN42VdejyV7qkSK" class="tulisan">Baca Selengkapnya...</a>
+                </div>
+            </div>
+        </aside>
+  </div>
+  <div class="content">
+    <h1 id="perca">Kehidupan dan Kepercayaan Masyarakat Nusantara</h1>
+        <p>Masyarakat Nusantara memiliki kehidupan yang sangat lekat dengan alam, tradisi, dan nilai spiritual yang diwariskan secara turun-temurun. Setiap daerah di Indonesia mengenal sistem kepercayaan yang berbeda, seperti <b>Sunda Wiwitan</b> di Jawa Barat, <b>Kejawen</b> di Jawa Tengah dan Timur, <b>Kaharingan</b> di Kalimantan, <b>Parmalim</b> di Sumatra Utara, hingga <b>Marapu</b> di Sumba. Kepercayaan-kepercayaan ini mengajarkan pentingnya <b>menjaga keseimbangan antara manusia, alam, dan Sang Pencipta</b>. Dalam kehidupan sehari-hari, nilai-nilai tersebut diwujudkan melalui <b>upacara adat, ritual, serta tradisi</b> yang memperkuat rasa kebersamaan dan menghormati leluhur.
+
+        Bagi masyarakat adat, <b>alam bukan sekadar tempat hidup</b>, melainkan bagian dari kehidupan yang memiliki roh dan kekuatan. <b>Gunung, laut, sungai, dan hutan</b> dianggap suci karena diyakini menjadi tempat bersemayamnya roh leluhur atau penjaga alam. Oleh sebab itu, mereka selalu menjaga keharmonisan dengan alam melalui berbagai bentuk ritual seperti <b>upacara persembahan hasil bumi, doa syukur panen, dan tarian adat.</b> Semua itu dilakukan sebagai wujud <b>rasa terima kasih atas anugerah yang diberikan oleh Sang Pencipta.</b>
+
+        Selain itu, sistem kepercayaan tradisional juga berperan penting dalam <b>membentuk nilai sosial masyarakat.</b> Gotong royong, rasa hormat kepada orang tua, serta kebersamaan dalam menjalankan adat merupakan bagian dari ajaran spiritual yang mengikat masyarakat dalam kesatuan. Nilai-nilai ini tidak hanya menjadi panduan moral, tetapi juga menjadi <b>dasar dalam menjaga persaudaraan antarindividu dan antar suku.</b>
+
+        Hingga kini, meskipun pengaruh modernisasi semakin kuat, banyak masyarakat di berbagai daerah Indonesia yang masih <b>mempertahankan tradisi dan kepercayaannya.</b> Hal ini menjadi bukti bahwa <b>spiritualitas Nusantara tetap hidup di tengah perubahan zaman.</b> Kearifan lokal yang terkandung di dalamnya tidak hanya mencerminkan <b>hubungan manusia dengan Tuhan,</b> tetapi juga dengan <b>alam dan sesama manusia</b> menjadikan <b>budaya Indonesia kaya, beragam, dan sarat makna.</b></p>
+    </div>
+</div>
+</section>
+    <section class="kel1">
+        <h2 id="gal">Galeri Nusantara</h2>
+        <div class="los">
+            <img src="../images/raja ampat.jpeg" alt="">
+            <img src="../images/borobudur.jpeg" alt="">
+            <img src="../images/sentani.jpeg" alt="">
+            <img src="../images/tabuik.jpeg" alt="">
+            <img src="../images/karapan sapi.jpeg" alt="">
+            <img src="../images/ogoh-ogoh.jpeg" alt="">
+            <img src="../images/ngaben.jpeg" alt="">
+            <img src="../images/boat.jpeg" alt="">
+            <img src="../images/rambu solo.jpeg" alt="">
+        </div>
+    </section>
+    <hr>
+    <footer>
+        <div class="kaki1">
+            <div class="kaki-isi">
+                <h3>Lelana Budaya</h3>
+                <p>Gerbang Pengetahuan Budaya Nusantara</p>
+            </div>
+            <div class="kaki-cont">
+                <h4>Kontak</h4>
+                <p>Email :<a href="mailto:lelanaboedaya@gmail.com">lelanaboedaya@gmail.com</a></p>
+                <p>Instagram:<a href="">@lelanabudaya</a></p>
+                <p>YouTube:<a href="">LelanaBudaya</a></p>
+            </div>
+        </div>
+        <div class="kaki-bwh">
+            <p>&copy; 2025 Lelana Budaya. Loetfy Adyaksa Sabara.</p>
+        </div>
+    </footer>
+</body>
+</html>
